@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # displays Best School 10 times.
 num=0
-while [ $num -lt 11 ]
+while [ $num -lt 10 ]
 do
     if [ $num = 9 ]
     then
@@ -9,5 +9,5 @@ do
     else
         echo "Best School"
     fi
-    let num+=1
+    (( num++ ))
 done
