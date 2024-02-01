@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This scrpit Working localhost at listens on port 98 on localhost.
+nc -l localhost 98
